@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.header {
+	font-size: 20px;
+	text-align: center;
+}
+
+#array {
+	background-color: white;
+	height: 413px;
+	width: 598px;
+	margin: auto;
+	position: relative;
+	margin-top: 64px;
+}
+#div1
+{
+    text-align: center; 
+    background-color:rgb(19, 224, 47); 
+    width: 100%; 
+    height: auto;
+    border: 5px solid rgb(34, 4, 4);
+    border-radius: 10px;
+}
+.block {
+	width: 28px;
+	background-color: #6b5b95;
+	position: absolute;
+	bottom: 0px;
+	transition: 0.2s all ease;
+}
+
+.block_id {
+	position: absolute;
+	color: black;
+	margin-top: -20px;
+	width: 100%;
+	text-align: center;
+}

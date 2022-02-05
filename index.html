@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript">
+
+      //   these are the functions which take us to the actual index page of the algorithms
+        const myfunc = () =>location.href="./mergesort/index.html" ;
+        
+        const myfunc2= () => location.href="./selectionsort/index.html" ;
+
+        const myfunc3=()=>location.href="./insertionSort/index.html" ;
+
+        const myfunc4=()=>location.href="./bubbleSort/index.html" ;
+    </script>
+</head>
+<body>
+    <div id="heading">
+        <h1 id="heading1">Sorting Visualizer</h1>
+    </div>
+    <div >
+        <div class="container">
+            <div class="btn" onclick="myfunc()">
+               <div class="shop-now">MergeSort</div>
+               <div class="snowflake-grid to-left">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="snowflake-grid to-right">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <div class="container">
+            <div class="btn" onclick="myfunc2()">
+               <div class="shop-now">Selection Sort</div>
+               <div class="snowflake-grid to-left">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="snowflake-grid to-right">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <div class="container">
+            <div class="btn" onclick="myfunc3()">
+               <div class="shop-now">Insertion Sort</div>
+               <div class="snowflake-grid to-left">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="snowflake-grid to-right">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <div class="container">
+            <div class="btn" onclick="myfunc4()">
+               <div class="shop-now">Bubble Sort</div>
+               <div class="snowflake-grid to-left">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="snowflake-grid to-right">
+                  <div class="snowflake-item border-bottom border-right">
+                     <div class="sub-items border-right border-bottom pull-down">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-bottom border-left">
+                     <div
+                        class="sub-items border-right border-bottom r-90 pull-down-right"
+                        >
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-right">
+                     <div class="sub-items border-right border-bottom r-270 pull-right">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+                  <div class="snowflake-item border-top border-left">
+                     <div class="sub-items border-right border-bottom r-180 pull-left">
+                        <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
